@@ -16,7 +16,7 @@ sudo pacman -S --needed --noconfirm \
   noto-fonts noto-fonts-emoji ttf-dejavu ttf-liberation \
   mesa vulkan-radeon lib32-mesa lib32-vulkan-radeon \
   vkd3d wine winetricks \
-  tuned irqbalance
+  tuned irqbalance konsole
 
 sudo systemctl enable sddm
 sudo systemctl enable irqbalance
